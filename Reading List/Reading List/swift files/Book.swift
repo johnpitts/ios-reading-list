@@ -18,4 +18,5 @@ struct Book: Equatable, Codable {
         self.reasonToRead = reasonToRead
         self.hasBeenRead = hasBeenRead
     }
+    
 }
