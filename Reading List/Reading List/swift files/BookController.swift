@@ -83,12 +83,12 @@ class BookController {
     
     
     
-    private var readBooks: [Book] { // shouldn't it be [Book]? optional?
-        return readBooks = books.filter({$0.hasBeenRead == true}) //else { return }
+    private var readBooks: [Book] {
+        return books.filter({$0.hasBeenRead == true})
     }
     
     private var unreadBooks: [Book] {
-        return unreadBooks = books.filter({$0.hasBeenRead == false}) //else { return }
+        return books.filter({$0.hasBeenRead == false})
     }
     
     

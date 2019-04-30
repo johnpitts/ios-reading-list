@@ -44,6 +44,9 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="fgS-rb-h5I" kind="show" identifier="bookDetail" id="8u0-8O-7Fr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -52,14 +55,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Reading List" id="rup-la-o9v">
-                        <barButtonItem key="rightBarButtonItem" title="+" id="yJ3-AD-yPx"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yJ3-AD-yPx"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zc4-eW-Kes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="976.79999999999995" y="104.7976011994003"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="Yi7-m7-CWW">
             <objects>
                 <viewController id="fgS-rb-h5I" sceneMemberID="viewController">
@@ -69,6 +72,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="f86-e7-mVl"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="hQv-cS-ZbD">
+                        <barButtonItem key="rightBarButtonItem" id="Of8-4U-5Ay"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23F-cL-vGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
